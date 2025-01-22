@@ -1,0 +1,11 @@
+import math
+
+cust_name = input("Welcome to Red Lobster! What is the customer name?")
+
+total_bill = float(input("Hello, " + cust_name + "! What is the total bill amount?"))
+
+num_ppl = int(input("How many ppl will be splitting the bill?"))
+
+amount_per_person = total_bill / num_ppl 
+
+print(f"\nThank you, {cust_name}! Each person should pay this amount: ${amount_per_person}")
